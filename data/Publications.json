@@ -1,0 +1,14 @@
+{
+    "Martin Drahansky":{
+        "name": "Something will be here",
+        "author": "Martin Drahansky",
+        "year": "2023",
+        "abstract": "Some abstract will be here"
+    },
+    "Martin":{
+        "name": "Something will be here",
+        "author": "Martin",
+        "year": "2019",
+        "abstract": "Some abstract will be here"
+    }
+}

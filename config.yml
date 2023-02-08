@@ -1,0 +1,95 @@
+#baseURL: 'http://strade.com/'
+languageCode: 'en-us'
+title: 'STRaDe'
+theme: strade-theme # gohugo-theme-ananke # ga-hugo-theme # hugo-PaperMod # hugo-arogya-theme # 
+
+defaultContentLanguage: en
+languages:
+  en:
+    languageName: English
+    contentDir: content/en/
+    weight: 1
+  cs:
+    languageName: Czech
+    contentDir: content/cs/
+    weight: 2
+
+taxonomies: 
+  category: "categories"
+  tag: "tags"
+  mood: "moods"
+  
+
+###########################
+##MENU##
+###########################
+menu:
+  main:
+    - identifier: About Us
+      name: About Us
+      url: /en/
+      weight: 1 
+    - identifier: Areas of Interest
+      name: Areas of Interest
+      url: /en/areas-of-interest
+      weight: 2 
+    - identifier: Team
+      name: Team
+      url: /en/team/
+      weight: 3
+    - identifier: Our Achievements
+      name: Our Achievements
+      url: /en/our-achievements
+      weight: 4  
+    - identifier: News
+      name: "News"
+      url: /en/news/
+      weight: 5
+    #- identifier: Submenu1  
+    #  name : "Submenu1"
+    #  parent: News
+    #  url: /en/news/news_submenu_1/
+    #  weight: 10 
+    - identifier: Events
+      name: Events
+      url: /en/events/
+      weight: 6
+    - identifier: Contacts
+      name: Contacts
+      url: /en/contacts
+      weight: 7
+  main_cs:
+    - identifier: O Nás
+      name: O Nás
+      url: /cs/
+      weight: 1
+    - identifier: Oblasti Zájmu
+      name: "Oblasti Zájmu"
+      url: /areas-of-interest
+      weight: 2
+    - identifier: Tým
+      name: Tým
+      url: /team/
+      weight: 3
+    - identifier: Naše úspěchy
+      name: Naše úspěchy
+      url: /our-achievements
+      weight: 4
+    - identifier: Zprávy
+      name: "Zprávy"
+      url: /news/
+      weight: 5
+    #- identifier: Podnabídka stránky 1  
+    #  name : "Podnabídka stránky 1"
+    #  parent: "Zprávy"
+    #  url: /news/news_submenu_1/
+    #  weight: 10
+    - identifier: Události
+      name: Události
+      url: /events/
+      weight: 6
+    - identifier: Kontakty
+      name: Kontakty
+      url: /contacts
+      weight: 7
+

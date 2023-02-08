@@ -1,0 +1,15 @@
+---
+title: "Team"
+url: "/en/team/"
+languageCode: "en"
+#date: 2022-12-21T14:23:40+01:00
+draft: false
+tags: ["tag1"]
+categories: ["category1"] 
+moods: ["happy"]
+# includes a shortcode for the youtube
+---
+
+Team.md is showing 
+
+{{<youtube 2xkNJL4gJ9E >}}

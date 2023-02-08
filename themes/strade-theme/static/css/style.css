@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  font: 400 15px Lato, sans-serif;
+  line-height: 1.8;
+  color: #818181;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #303030;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+h4 {
+  font-size: 19px;
+  line-height: 1.375em;
+  color: #303030;
+  font-weight: 400;
+  margin-bottom: 30px;
+}  
+
+.logo {
+  float: left;
+  margin-right: 20px;
+  width: 100px;
+  height: 50px;
+}
+
+.logo img{
+  width: 100px; 
+  height: 50px;
+}
+
+
+
+/*.logo img {
+  max-width: 100%;
+  height: auto;
+}*/
+
+/*
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.submenu {
+  float: left;
+  overflow: hidden;
+}
+
+.submenu .submenu-item {
+  float: left;
+}
+
+.submenu a {
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover, .submenu:hover .submenu-item {
+  background-color: #ddd;
+  color: black;
+}*/
+
+nav ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+nav li {
+  /* we could also use display: inline/inline-block */
+  float: left;
+  /*margin: var(--headerNavItemsMargin) 0;*/
+  color: white;
+}
+
+nav a {
+  display: inline-block;
+  padding: 1rem;
+  /*text-decoration: none;*/
+}
+
+.navTitle {
+  margin-left: .25rem;
+}
+
+/* Removing underscre in the menu references */
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+/*
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}*/

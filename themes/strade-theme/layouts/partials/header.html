@@ -1,0 +1,103 @@
+<header>
+<!--
+    Partial Header
+    <a href="{{ if eq .Site.Language.Lang "en" }}{{ "cs" | absLangURL }}{{ else }}{{ "en" | absLangURL }}{{ end }}">
+        {{ if eq .Site.Language.Lang "en" }}CS{{ else }}EN{{ end }}</a>
+
+    {{ if eq .Site.Language.Lang "en" }}
+        {{ $menu := .Site.Menus.main }}
+    {{ else }}
+        {{ $menu := .Site.Menus.main_cs }}
+    {{ end }}
+    {{ $menu := .Site.Menus.main }}
+<nav class="navbar">
+  <ul>
+    {{ range $menu }}
+      {{ if .HasChildren }}
+        <li><a href="{{ .URL }}">{{ .Name }}</a>
+          <ul class="submenu">
+            {{ range .Children }}
+              <li class="submenu-item">
+                <a href="{{ .URL }}">{{ .Name }}</a>
+              </li>
+            {{ end }}
+          </ul>
+        </li>
+      {{ else }}
+        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+      {{ end }}
+    {{ end }}
+  </ul>
+</nav>-->
+    <nav class="navbar">
+      <ul style="display: inline-block;">
+        <li class="logo">
+            <a href="{{ .Site.BaseURL }}">
+              <img src="/logo-strade-modre-siroke.jpg" alt="Logo">
+            </a>
+        </li>
+
+        {{ if eq .Site.Language.Lang "en" }}
+            {{ $menu := .Site.Menus.main }}
+            {{ range $menu }}
+                <li><a href="{{ .URL }}">{{ .Name }}</a>
+                {{ if .HasChildren }}
+                    <ul class="submenu">
+                        {{ range .Children }}
+                            <li class="submenu-item"><a href="{{ .URL }}">{{ .Name }}</a></li>
+                        {{ end }}
+                    </ul>
+                {{ end }}
+                </li>
+            {{ end }}
+        {{ else }}
+            {{ $menu := .Site.Menus.main_cs }}
+            {{ range $menu }}
+                <li><a href="{{ .URL }}">{{ .Name }}</a>
+                {{ if .HasChildren }}
+                    <ul class="submenu">
+                        {{ range .Children }}
+                            <li class="submenu-item"><a href="{{ .URL }}">{{ .Name }}</a></li>
+                        {{ end }}
+                    </ul>
+                {{ end }}
+                </li>
+            {{ end }}
+        {{ end }}
+        <!--{{ printf .Site.Language.Lang}}-->
+        <!--
+        {{ range $menu }}
+            <li><a href="{{ .URL }}">{{ .Name }}</a>
+            {{ if .HasChildren }}
+                <ul class="submenu">
+                    {{ range .Children }}
+                        <li class="submenu-item"><a href="{{ .URL }}">{{ .Name }}</a></li>
+                    {{ end }}
+                </ul>
+            {{ end }}
+            </li>
+        {{ end }}-->
+        <!--<li><a href="">Language</a>-->
+            <ul class="submenu"> 
+              {{ range $.Site.Home.AllTranslations }}
+                 <li class="submenu-item"><a href="{{ .Permalink }}?lang={{ .Lang }}">{{ .Language.LanguageName }}</a></li>
+              {{ end }}
+            </ul>                        
+        <!--</li>-->
+        <!--<li><a href="">Language</a>
+          <ul class="submenu">
+            
+              {{ range $.Site.Languages }}
+                <li><a href="">{{ .LanguageName }}</a></li>
+              {{ end }}
+              <li>ahoj</li>
+          </ul>  
+
+        </li>-->
+      </ul>
+
+
+    </nav>
+
+</header>
+  

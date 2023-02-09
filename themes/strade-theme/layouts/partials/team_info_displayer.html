@@ -1,0 +1,13 @@
+{{ define "team_info_displayer.html" }}
+<div style="display: flex;">
+  <div style="width: 50%;">
+    <img src="{{ .Params.image }}" alt="Image" style="width: 100%;">
+  </div>
+  <div style="width: 50%; padding: 1em;">
+    <h2>{{ .Params.text_title }}</h2>
+    <p>{{ .Params.text_content }}</p>
+    Person Info
+  </div>
+</div>
+{{ end }}
+

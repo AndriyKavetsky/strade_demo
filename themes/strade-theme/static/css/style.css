@@ -1,13 +1,21 @@
 *{
-  margin: 0;
-  padding: 0;
+  box-sizing: border-box;
+  /*margin: 0;*/
 }
+
+
 body {
   font: 400 15px Lato, sans-serif;
   line-height: 1.8;
-  color: #818181;
-  width: 100%;
-  overflow-x: hidden;
+  color: black;
+  margin: 0px;
+  /*padding: 20px;*/
+  /*width: 100%;
+  overflow-x: hidden;*/
+}
+
+h1 {
+  text-align: center;
 }
 
 h2 {
@@ -25,18 +33,60 @@ h4 {
   margin-bottom: 30px;
 }  
 
+header {
+  /*background-image: "/Header_background.png";*/
+  background-color: gainsboro;
+  background-repeat: repeat;
+  padding-bottom: 0.5rem;
+  min-height: 70px;
+  /*position: fixed;*/
+}
+
+main{
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+footer {
+  background-color: gainsboro;
+  background-repeat: repeat;
+  padding-bottom: 0.5rem;
+  padding: auto;
+  height: 100px;
+  /*position: fixed;*/
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
 .logo {
   float: left;
-  margin-right: 20px;
-  width: 100px;
-  height: 50px;
+  margin: auto;
+  padding: auto;
+  /*margin-right: 0px;*/
+  /*width: 100px;
+  height: 50px;*/
 }
 
 .logo img{
-  width: 100px; 
-  height: 50px;
+  max-width: 200px; 
+  max-height: 100px;
 }
 
+.footer_info{
+  padding: 20px;
+}
+
+/*
+.main_img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}*/
 
 
 /*.logo img {
@@ -93,25 +143,26 @@ nav ul {
 nav li {
   /* we could also use display: inline/inline-block */
   float: left;
-  /*margin: var(--headerNavItemsMargin) 0;*/
+  margin: 1rem 0;
   color: white;
 }
 
 nav a {
   display: inline-block;
   padding: 1rem;
-  /*text-decoration: none;*/
+  text-decoration: none;
 }
 
+/*
 .navTitle {
   margin-left: .25rem;
-}
+}*/
 
-/* Removing underscre in the menu references */
+/* Removing underscre in the menu references 
 a:link { text-decoration: none; }
 a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
-a:active { text-decoration: none; }
+a:active { text-decoration: none; }*/
 
 /*
 img.wp-smiley,

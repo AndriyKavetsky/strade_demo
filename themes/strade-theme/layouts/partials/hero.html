@@ -1,0 +1,26 @@
+{{- define "hero.html" }}
+<section id="hero" class="hero">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7">
+        <h1>{{ .Title }}</h1>
+        {{- if .CTA }}
+        <p><a href="{{ .CTA.URL }}" class="btn btn-primary btn-lg">{{ .CTA.Label }}</a></p>
+        {{- end }}
+        {{- if .CTAAlt }}
+        <p><a href="{{ .CTAAlt.URL }}" class="btn btn-secondary btn-lg">{{ .CTAAlt.Label }}</a></p>
+        {{- end }}
+        {{- if .CTANote }}
+        <p class="cta-note">{{ .CTANote.Label }}</p>
+        {{- end }}
+      </div>
+      <div class="col-lg-5">
+        {{- if .Image }}
+        <img src="{{ .Image.Filename }}" alt="Hero Image">
+        {{- end }}
+      </div>
+    </div>
+  </div>
+  Hero html
+</section>
+{{- end }}

@@ -1,0 +1,30 @@
+<html>
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>{{ .Title }} | {{ .Site.Title }}</title>
+     <link rel="stylesheet" type="text/css" href="{{ "css/style.css" | relURL }}">
+     <!--{{ $style := resources.Get "css/custom.css" }}-->
+</head>
+<body>
+    {{ partial "header" .}}
+    <main>
+    {{.Content}}
+    {{ range .Pages }}
+        <div style="display: flex;">
+            <div style="width: 30%;">
+              <img src="{{ .Params.image }}" alt=".Params.text_title" width="100%">
+            </div>
+            <div style="width: 70%; padding: 1em;">
+              <h2>{{ .Params.text_title }}</h2>
+              <p style="text-align: justify;">{{ .Params.text_content }}</p>
+            </div>
+          </div>
+          <br>
+    {{ end }}
+    </main>
+    {{ partial "footer" . }}
+</body>
+</html>
+

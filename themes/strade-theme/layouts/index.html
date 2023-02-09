@@ -8,12 +8,12 @@
      <link rel="stylesheet" type="text/css" href="{{ "css/style.css" | relURL }}">
 </head>
 <body>
-  {{ partial "header" . }}
+  {{ partial "header.html" . }}
   <main>
     <!--<h1>{{ .Title }}</h1> -->
     {{ .Content }}
 
   </main>
-  {{ partial "footer" . }}
+  {{ partial "footer.html" . }}
 </body>
 </html>

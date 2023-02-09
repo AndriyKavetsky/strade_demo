@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ .Title }} | {{ .Site.Title }}</title>
+    <link rel="stylesheet" type="text/css" href="{{ "css/style.css" | relURL }}">
+</head>
+<body>
+{{ partial "header.html" . }}
+  <main>
+    {{ .Content }}
+   Hello
+   {{ partial "team_info_displayer.html" . }}
+   <div style="display: flex;">
+    <div style="width: 50%;">
+      <img src="{{ .Params.image }}" alt="Image" style="width: 100%;">
+    </div>
+    <div style="width: 50%; padding: 1em;">
+      <h2>{{ .Params.text_title }}</h2>
+      <p>{{ .Params.text_content }}</p>
+    </div>
+  </div>
+  </main>
+{{ partial "footer.html" . }}
+</body>
+</html>

@@ -8,10 +8,12 @@
     <link rel="stylesheet" type="text/css" href="{{ "css/style.css" | relURL }}">
 </head>
 <body>
+  <div style="position: relative;">
 {{ partial "header.html" . }}
   <main>
     {{ .Content }}
   </main>
-  {{ partial "footer" . }}
+{{ partial "footer.html" . }}
+</div>
 </body>
 </html>

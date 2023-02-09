@@ -3,6 +3,12 @@ languageCode: 'en-us'
 title: 'STRaDe'
 theme: strade-theme # gohugo-theme-ananke # ga-hugo-theme # hugo-PaperMod # hugo-arogya-theme # 
 
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
 defaultContentLanguage: en
 languages:
   en:

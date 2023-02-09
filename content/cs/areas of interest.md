@@ -9,8 +9,12 @@ categories: ["category1"]
 moods: ["happy"]
 # includes a shortcode for the youtube
 ---
-# Ceska verze
+## Biometrie
 
-Oblasti zájmu is showing 
+## Biomedicína
 
-{{<youtube 2xkNJL4gJ9E >}}
+## Robotika a senzorika
+
+## Počítačové vidění
+
+## Hardware

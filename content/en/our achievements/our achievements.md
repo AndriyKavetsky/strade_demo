@@ -6,4 +6,16 @@ date: 2023-02-08T17:06:16+01:00
 draft: false
 ---
 
-our-achievements will be displayed here
+## PATENTS & UTILITY MODELS
+
+## INDUSTRIAL DESIGNS & PROTOTYPES
+
+## FUNCTIONAL PROTOTYPES & SOFTWARE
+
+## SOFTWARE
+
+## SELECTED PUBLICATIONS
+
+## AWARDS
+
+## SELECTED THESES

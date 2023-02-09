@@ -10,7 +10,17 @@ moods: ["happy"]
 # includes a shortcode for the youtube
 ---
 
-Areas of Interest.md is showing here.
+## Biometrics
+
+## Biomedicine
+
+## Robotics & Sensorics
+
+## Computer vision
+
+## Hardware
+
+
 
 
 

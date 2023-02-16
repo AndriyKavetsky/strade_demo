@@ -5,19 +5,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ .Title }} | {{ .Site.Title }}</title>
-    <link rel="stylesheet" type="text/css" href="{{ "css/style.css" | relURL }}">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <!--<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/style.css">-->
+    <!--<link rel="stylesheet" type="text/css" href="{{ "css/style.css" | relURL }}"> -->
 </head>
 <body>
   <div style="position: relative;">
 {{ partial "header.html" . }}
   <main>
     {{ .Content }}
-    {{ $publications := site.Data.publications }}
-    <ol>
-      {{ range $publications.authors }}
-      <li> {{.author}} {{.name}} year {{.year}} </li>
+    <select>
+      <option> All </option>
+      <option> Patents & UTILITY MODELS </option>
+      <option> INDUSTRIAL DESIGNS & PROTOTYPES </option>
+      <option> FUNCTIONAL PROTOTYPES & SOFTWARE </option>
+      <option> SOFTWARE </option>
+    </select>
+    {{ if eq .Site.Language.Lang "en" }}
+      <h2>PATENTS & UTILITY MODELS</h2>
+
+      <h2>INDUSTRIAL DESIGNS & PROTOTYPES</h2>
+    
+      <h2>FUNCTIONAL PROTOTYPES & SOFTWARE</h2>
+    
+      <h2>SOFTWARE</h2>
+    
+      <h2>SELECTED PUBLICATIONS</h2>
+      {{ $publications_en := site.Data.publications_en }}
+      <ol>
+        {{ range $publications_en.authors }}
+        <li> {{.author}} {{.name}} year {{.year}} </li>
+        {{ end }}
+      </ol>    
+      <h2>AWARDS</h2>
+    
+      <h2>SELECTED THESES</h2>
+
+      <h3> Doctoral Theses </h3>
+      {{ $thesis_en := site.Data.thesis_en }}
+      <ol>
+        {{ range $thesis_en.doctoral }}
+        <li> {{.author}}. {{.title}} {{.year}}. </li>
+        {{ end }}
+      </ol> 
+      
+      <h3> Master's Theses </h3>
+      <ol>
+        {{ range $thesis_en.masters }}
+        <li> {{.author}}. {{.title}} {{.year}}. </li>
+        {{ end }}
+      </ol>
+      
+      <h3> Bachelor's Theses</h3>
+      <ol>
+        {{ range $thesis_en.bachelors }}
+        <li> {{.author}}. {{.title}} {{.year}}. </li>
+        {{ end }}
+      </ol>
+
+    {{ else }}
+      <h2> PATENTY A UŽITNÉ MODELY</h2>
+
+      <h2> PRŮMYSLOVÉ NÁVRHY A PROTOTYPY</h2>
+    
+      <h2> FUNKČNÍ PROTOTYPY A SOFTWARE</h2>
+    
+      <h2> SOFTWARE</h2>
+    
+      <h2> VYBRANÉ PUBLIKACE</h2>
+      {{ $publications_cs := site.Data.publications_cs }}
+      <ol>
+        {{ range $publications_cs.authors }}
+          <li> {{.author}} {{.name}} year {{.year}} </li>
+        {{ end }}
+      </ol>
+    
+      <h2> OCENĚNÍ</h2>
+    
+      <h2> VYBRANÉ TEZE</h2>
+          
     {{ end }}
-    </ol>
+    
   </main>
 {{ partial "footer.html" . }}
 </div>

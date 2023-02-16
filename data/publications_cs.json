@@ -10,10 +10,10 @@
                "price": "1000"
              }
            ],
-           "name": "Something will be here",
+           "name": "Něco tady bude",
            "author": "Author1",
            "year": "2023",
-           "abstract": "Some abstract will be here"
+           "abstract": "Nějaký abstrakt zde bude"
         },
         {
             "id": 1451,
@@ -22,13 +22,13 @@
               {
                 "id": 5555555,
                 "product_id": 1111,
-                "price": "1000"
+                "price": "10560"
               }
             ],
-            "name": "Something will be here",
+            "name": "Něco tady bude",
             "author": "Author2",
             "year": "2019",
-            "abstract": "Some abstract will be here"
+            "abstract": "Nějaký abstrakt zde bude"
         }
     ]
 }

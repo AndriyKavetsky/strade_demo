@@ -8,7 +8,7 @@ languageCode: "cs"
 
 {{< rawhtml >}}
 
-<h1> Výzkum a Vývoj Bezpečnostních Technologií </h1>
+<h1 class="main_page"> Výzkum a Vývoj Bezpečnostních Technologií </h1>
 
 <img src="/images/background-team.jpg"
      alt="STRaDe Team"

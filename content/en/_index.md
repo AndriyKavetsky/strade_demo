@@ -8,7 +8,7 @@ languageCode: "en"
 
 {{< rawhtml >}}
 
-<h1> Security Technology Research and Development </h1>
+<h1 class="main_page"> Security Technology Research and Development </h1>
 
 <img src="/images/background-team.jpg"
      alt="STRaDe Team"

@@ -1,0 +1,172 @@
+{
+    "publications": [
+        {
+          "id": 1,
+          "authors": "BISWAS S., ROHDIN J.A. and DRAHANSKY M.",
+          "title": "Interretinal Symmetry in Color Fundus Photographs",
+          "publisher": "In: Proceedings of the 42nd Annual International Conference of the IEEE Engineering in Medicine & Biology Society. Montreal: IEEE Computer Society",
+          "year": 2020,
+          "pages": "1980-1983",
+          "ISBN": "978-1-7281-1990-8" 
+       },
+       {
+         "id": 2,
+         "authors": "BISWAS S., ROHDIN J.A., MNUK T. and DRAHANSKY M.",
+         "title": "Is There Any Similarity Between a Person's Left and Right Retina?",
+         "publisher": "In: Proceedings of the 18th International Conference of the Biometrics Special Interest Group. LNI. Darmstadt: GI - Group for computer science",
+         "year": 2019,
+         "pages": "71-82",
+         "ISBN": "978-3-88579-690-9" 
+        }
+    ],
+    "doctoral_theses": [
+      {
+         "id": 1,
+         "author": "MALCIK, Dominik",
+         "title": " Analýza útoků na (mikro)čipy a vývoj vylepšení jejich robustnosti/bezpečnosti.",
+         "year": 2020
+      },
+      {
+          "id": 2,
+          "author": "KANICH, Ondrej",
+          "title": " Výzkum simulací poškození otisků prstů.",
+          "year": 2019
+       },
+       {
+          "id": 3,
+          "author": "HAJEK, Josef",
+          "title": " Biometrický systém pro rozpoznání sítnice a duhovky.",
+          "year": 2017
+       },
+       {
+          "id": 4,
+          "author": "MRACEK, Stepan",
+          "title": " Hybridní 3D rozpoznávání obličeje.",
+          "year": 2015
+       }
+  ],
+  "masters_theses":[
+      {
+          "id": 1,
+          "author": "CHARVAT, Michal",
+          "title": " Systém pro detekci a lokalizaci člověka pomocí termovizních kamer.",
+          "year": 2020
+       },
+       {
+          "id": 2,
+          "author": "MALANIK, Petr",
+          "title": " Ovládání manipulátorem pro získání sítnice.",
+          "year": 2020
+       },
+       {
+          "id": 3,
+          "author": "ZALESKY, Jiri",
+          "title": " Rekonstrukce krevního řečiště prstu ve 3D z videosekvence.",
+          "year": 2020
+       },
+       {
+          "id": 4,
+          "author": "PAWLUS, Jan",
+          "title": " Zařízení pro imitaci statických a dynamických charakteristik rukopisu.",
+          "year": 2019
+       },
+       {
+          "id": 5,
+          "author": "GULAN, Filip",
+          "title": " Detekce, lokalizace a stanovení chronických ran.",
+          "year": 2018
+       },
+       {
+          "id": 6,
+          "author": "ORAVEC, Tomas",
+          "title": " Metodika měření kvality obrazu otisku prstu.",
+          "year": 2018
+       },
+       {
+          "id": 7,
+          "author": "TRETTER, Zdenek",
+          "title": " Generování syntetických obrazů sítnic.",
+          "year": "2017"
+       },
+       {
+          "id": 8,
+          "author": "BARTA, Milan",
+          "title": " Generování kožních onemocnění do syntetických otisků prstů.",
+          "year": 2016
+       }         
+  ],
+  "bachelors_theses":[
+      {
+          "id": 1,
+          "author": "KOSTIALIK, Gabriel",
+          "title": " Detekce nemocí na lidské sítnici.",
+          "year": 2020
+       },
+       {
+          "id": 2,
+          "author": "MUELLER, Dominik",
+          "title": " Konstrukce pera se skrytým získáváním vzorků chování.",
+          "year": 2020
+       },
+       {
+          "id": 3,
+          "author": "PETRUSKA, Zdenko",
+          "title": " Dálkově ovládaný nízkoenergetický informační displej.",
+          "year": 2019
+       },
+       {
+          "id": 4,
+          "author": "PALACKOVA, Bianca",
+          "title": " Porovnání snímků sítnice s patologickými nálezy.",
+          "year": 2019
+       },
+       {
+          "id": 5,
+          "author": "SYKOROVA, Tereza",
+          "title": " Detekce onemocnění diabetu na lidské sítnici.",
+          "year": 2019
+       },
+       {
+          "id": 6,
+          "author": "MOLITORIS, Milos",
+          "title": " Získávání a rozpoznávání 3D podpisu.",
+          "year": 2018
+       },
+       {
+          "id": 7,
+          "author": "MYSZA, Robert",
+          "title": " Inteligentní termokamera s detekcí narušitele.",
+          "year": 2018
+       },
+       {
+          "id": 8,
+          "author": "BAROTOVA, Stepanka",
+          "title": " Detektor kožních onemocnění pomocí technologie otisků prstů.",
+          "year": 2017
+       },
+       {
+          "id": 9,
+          "author": "STAREK, Jan",
+          "title": " Technologie vývoje nositelných zařízení pro YSoft SafeQ.",
+          "year": 2017
+       },
+       {
+          "id": 10,
+          "author": "SVOBODA, Jakub",
+          "title": " Detektor lidské hlavy na obrázku.",
+          "year": 2017
+       },
+       {
+          "id": 11,
+          "author": "JAROLIM, Jordan",
+          "title": " Rekonstrukce dat z poškozeného CD/DVD.",
+          "year": 2016
+       },
+       {
+          "id": 12,
+          "author": "SESTAK, Martin",
+          "title": " Rozpoznání kožních onemocnění na prstech lidské ruky.",
+          "year": 2016
+       }         
+  ]
+}

@@ -1,0 +1,618 @@
+{  
+   "patents":{
+      "category_title": "Patents",
+      "entries":[
+         {
+            "id": 1,
+            "title": "308634 - Device for sensing eye background and how to operate it",
+            "year": 2020,
+            "origion": "CZ",
+            "description": "Device for the fully automatic acquirement of eye retina."
+         },
+         {
+            "id": 2,
+            "title": "WO/2015/043553 - Ophthalmic Diagnostic Apparatus and Method of its Operation",
+            "year": 2015,
+            "origion": "International",
+            "description": "Ophthalmic diagnostic device for the acquirement of the retina and iris, connected to an expert system for the determination of eye disease."
+         },
+         {
+            "id": 3,
+            "title": "305276 - Biometric security device for scanning and recognition of veins of human hand fingers",
+            "year": 2015,
+            "origion": "CZ",
+            "description": "Device for the acquirement and recognition of human finger veins."
+         },
+         {
+            "id": 4,
+            "title": "304801 - Method of detecting activity in biometric systems using security sensor based on pulse rate",
+            "year": 2014,
+            "origion": "CZ",
+            "description": "Liveness detection based on pulsation changes in the colour pixels of a fingertip image, which corresponds to the heart-beat frequency of the scanned person."
+         },
+         {
+            "id": 5,
+            "title": "WO/2010/009683 - A Method of Biometric Identification of Persons According to the Hand and Device for the Biometric Identification of Persons According to the Hand",
+            "year": 2010,
+            "origion": "International",
+            "description": " Method of biometric identification of persons by the shape of the hand, whereas a 3D shape of the hand is taken into account, as well. It also includes a pad and scanner coupled with a control and evaluating unit. The pad comprises a depression in the hand shape situated in the field of view of the device and in the area of the impact of radiation from a light source."
+         },
+         {
+            "id": 6,
+            "title": "WO/2007/036370 - Method and Apparatus for Detecting Biometric Features",
+            "year": 2007,
+            "origion": "International",
+            "description": "New contactless method for testing of liveness by biometric systems. The liveness recognition is based on the heart's activity."
+         }
+      ]
+   },
+   "utility_models":{
+      "category_title": "Utility Models",
+      "entries":[
+         {
+            "id": 1,
+            "title": "34567 - 3D face scanner",
+            "year": 2020,
+            "origion": "CZ",
+            "description": "Device for fast capture of 2D facial data for photogrammetric composition into a precise 3D model of the human face."
+         },
+         {
+            "id": 2,
+            "title": "33726 - Medical device for the localisation of solitary pulmonary nodes in lung tissue",
+            "year": 2019,
+            "origion": "CZ",
+            "description": "Device for locating solitary pulmonary nodes in lung tissue (diagnostic and therapeutic applications), working with safe low power, infrared radiation."
+         },
+         {
+            "id": 3,
+            "title": "32950 - Mobile criminalistic electronic unit for acquiring traces at crime scenes",
+            "year": 2019,
+            "origion": "CZ",
+            "description": "Device usable as a sensing or illumination device for exploring crime scenes, providing traces and recording selected information in a signed digital form."
+         },
+         {
+            "id": 4,
+            "title": "31405 - A multispectral liveness detector especially suited for fingerprint recognition technology",
+            "year": 2018,
+            "origion": "CZ",
+            "description": "Liveness detection solution for fingerprint recognition using multi-spectral illumination and acquisition of finger skin reaction."
+         },
+         {
+            "id": 5,
+            "title": "28802 - Multifunctional camera system with automated processing of video data",
+            "year": 2015,
+            "origion": "CZ",
+            "description": "Multifunctional camera system with automatic video processing suitable for surveillance, detection, tracking and other video applications, inc. off-line processing."
+         },
+         {
+            "id": 6,
+            "title": "28252 - Robot to measure the parameters of cavities of cylindrical cross sections",
+            "year": 2015,
+            "origion": "CZ",
+            "description": "Robot for the measurement of various parameters of cavities with a cylindrical diameter. Suitable for cavities from 80 mm up to 500 mm."
+         },
+         {
+            "id": 7,
+            "title": "27379 - Robotic platform for searching for people in debris and avalanches",
+            "year": 2014,
+            "origion": "CZ",
+            "description": "Unique construction design of the robot for searching for people in debris and avalanches."
+         },
+         {
+            "id": 8,
+            "title": "21548 - Biometric security device for acquiring and recognising of finger veins of a human hand",
+            "year": 2010,
+            "origion": "CZ",
+            "description": "Device for acquiring and recognising finger veins of a human hand."
+         },
+         {
+            "id": 9,
+            "title": "19364 - Liveness detection on fingers by causation of optical changes",
+            "year": 2009,
+            "origion": "CZ",
+            "description": "Liveness detection based on fingerprint recognition using causation of optical changes after increase of pressure to the finger."
+         }
+      ]
+   },
+   "industrial_designs":{
+      "category_title": "Industrial Designs",
+      "entries":[
+         {
+            "id": 1,
+            "title": "36431 - Exploration robot, bioradar, robot manipulator, overview camera",
+            "year": 2015,
+            "origion": "CZ",
+            "description": " Exploration robot, bioradar, robot manipulator, overview camera."
+         },
+         {
+            "id": 2,
+            "title": "34931 - Robot for minisumo competition",
+            "year": 2010,
+            "origion": "CZ",
+            "description": " Design and conception of a unique construction of a minisumo robot."
+         }
+      ]
+   },
+   "prototypes":{
+      "category_title": "Prototypes",
+      "entries":[
+         {
+            "id": 1,
+            "title": "Multisensoric board usable on drone",
+            "year": 2019,
+            "description": "Multisensoric board is ready for use on unmanned aerial vehicles to collect additional sensoric data. Currently, temperature, humidity, pressure, light intensity sensors and GPS are present. The board contains a fully programmable controller."
+         },
+         {
+            "id": 2,
+            "title": "Prototype of an embedded system with OS Linux for the main control unit of the iNELS intelligent electro-installation",
+            "year": 2013,
+            "description": "The result is a sub-module for the main control unit of the iNELS intelligent electro-installation - it is an embedded device with OS Linux."
+         },
+         {
+            "id": 3,
+            "title": "RF Touch control touch unit",
+            "year": 2011,
+            "description": "Touch unit for wireless control of iNELS intelligent electro-installation."
+         },
+         {
+            "id": 4,
+            "title": "RF transmitter: RFTI-10B wireless temperature sensor",
+            "year": 2011,
+            "description": "RF transmitter - RFTI-10 wireless temperature sensor, which is integrable into the iNELS intelligent electro-installation."
+         },
+         {
+            "id": 5,
+            "title": "Switching actor with RFTSI-11B temperature sensor",
+            "year": 2011,
+            "description": "Switching actor with an RFTSI-11B temperature sensor, which can be integrated into the iNELS intelligent electro-installation."
+         },
+         {
+            "id": 6,
+            "title": "ISTA - Image stabilisation",
+            "year": 2007,
+            "description": " Autonomous hardware unit for real-time PAL/NTSC video signal processing, in which software for digital image stabilisation is running."
+         }
+      ]
+   },
+   "software":{
+      "category_title": "Software",
+      "entries": [
+         {
+            "id": 1,
+            "title": "FiQiVi - Fingerprint image quality visualiser",
+            "year": 2019,
+            "description": "Application for determining fingerprint image quality. In addition to the overall fingerprint quality it is also possible to visualise the quality map and see the quality in different regions of the fingerprint."
+         },
+         {
+            "id": 2,
+            "title": "SYDAGenerator - Tool for generating datasets using a 3D model",
+            "year": 2018,
+            "description": "Application is used for generating datasets for machine learning and facial recognition research purposes. It uses 3D object models and composes them into the scene. Generating datasets is done by rotating the object in the scene. Using geometric operations, it is possible to adjust the centre of rotation of the object."
+         },
+         {
+            "id": 3,
+            "title":"SyFDaS - Synthetic fingerprint damage simulator and generator",
+            "year": 2018,
+            "description":"This application is divided into two parts: generator and simulator. The generator can create a synthetic fingerprint using defined minutiae points (and other possible inputs such as fingerprint class). The simulator uses the generated image and simulates various kinds of damage from moisture, pressure and a damaged sensor to skin diseases. It is also possible to simulate damage as it would be seen on a swipe sensor."
+         },
+         {
+            "id": 4,
+            "title":"Application for biometric liveness detection on fingers",
+            "year": 2016,
+            "description":"Application on the Matlab platform for presentation attack detection on fingers."
+         },
+         {
+            "id": 5,
+            "title":"Detection of the fingerprint area",
+            "year": 2016,
+            "description":" After loading a fingerprint image, the software detects an area which belongs to the fingerprint. It removes undesirable information (e.g. skin disease), which may be in the image and hinder fingerprint recognition."
+         },
+         {
+            "id": 6,
+            "title":"Facial recognition from a quadcopter",
+            "year": 2016,
+            "description":"Application for facial recognition in a video stream from a quadcopter detects the face, which is then converted to a monochromatic image, normalised, and resized to achieve uniform image size for the recognition algorithm."
+         },
+         {
+            "id": 7,
+            "title":"HeadViewer - Simulation tool for viewing the head from CCTV camera position",
+            "year": 2016,
+            "description":"This application is used for simulating the head position from the CCTV camera. The sensitivity of facial detection can be determined using the application."
+         },
+         {
+            "id": 8,
+            "title":"Anonymiser",
+            "year": 2015,
+            "description":"This application allows its user to select and track objects in video and to modify their appearance. The video is processed using the FFmpeg library. The objects are tracked by built-in object tracking algorithms. The user is allowed to modify the trajectory of the object and to change the type of anonymisation."
+         },
+         {
+            "id": 9,
+            "title":"FaceLib",
+            "year": 2015,
+            "description":"Library for developing and evaluating 2D/3D face recognition biometric systems."
+         },
+         {
+            "id": 10,
+            "title":"One-year patient heart failure mortality model",
+            "year": 2015,
+            "description":"This application was created to evaluate annual mortality patients with heart failure. To run the application the AHEAD database must be used in the required format."
+         },
+         {
+            "id": 11,
+            "title":"Microscopic data analyser",
+            "year": 2015,
+            "description":"This application allows the user to maintain project data belonging to a particular chip. It is also possible to perform basic analysis above the image picture data and to perform combination of layers of the given data."
+         },
+         {
+            "id": 12,
+            "title":"Software for registering distribution and end points of telecommunications networks",
+            "year": 2015,
+            "description":"Application for registering network nodes with a tree structure based on an object-orientated information structure. For every node there is an object for storing information about the installed technology, structure and network interconnection, contracts with building owners, energy consumption etc."
+         },
+         {
+            "id": 13,
+            "title":"Speckle Tracking Echocardiography",
+            "year": 2015,
+            "description":"Application and library for processing and analysis of echocardiographic records."
+         },
+         {
+            "id": 14,
+            "title":"Software module for processing of thermoface images",
+            "year": 2014,
+            "description":"Application can train thermal face image classifier for identity recognition. It supports database of registered users and recognition of new samples."
+         },
+         {
+            "id": 15,
+            "title":"Software for extraction of features from eye retina vein pattern to the purpose of biometric recognition of people",
+            "year": 2014,
+            "description":"The cardiovascular pattern is extracted from retinal images to create a template."
+         }
+      ]
+   },
+   "publications":{
+      "category_title": "Publications",
+      "entries": [
+        {
+            "id": 1,
+            "authors": "BISWAS S., ROHDIN J.A. and DRAHANSKY M.",
+            "title": "Interretinal Symmetry in Color Fundus Photographs",
+            "publisher": "In: Proceedings of the 42nd Annual International Conference of the IEEE Engineering in Medicine & Biology Society. Montreal: IEEE Computer Society",
+            "year": 2020,
+            "pages": "1980-1983",
+            "ISBN": "978-1-7281-1990-8" 
+        },
+        {
+            "id": 2,
+            "authors": "BISWAS S., ROHDIN J.A., MNUK T. and DRAHANSKY M.",
+            "title": "Is There Any Similarity Between a Person's Left and Right Retina?",
+            "publisher": "In: Proceedings of the 18th International Conference of the Biometrics Special Interest Group. LNI. Darmstadt: GI - Group for computer science",
+            "year": 2019,
+            "pages": "71-82",
+            "ISBN": "978-3-88579-690-9" 
+        },
+        {
+            "id": 3,
+            "authors": "KANICH O., KOSTAK D. and DRAHANSKY M.",
+            "title": "Psoriasis Damage Simulation into Synthetic Fingerprint",
+            "publisher": "In: Proceedings 18th International Conference of the Biometrics Special Interest Group. Lecture Notes in Informatics. Darmstadt: GI - Group for computer science",
+            "year": 2019,
+            "pages": "205-212",
+            "ISBN": "978-3-88579-690-9" 
+         },
+         {
+            "id": 4,
+            "authors": "SEMERAD L. and DRAHANSKY M.",
+            "title": "Retinal Vascular Characteristics",
+            "publisher": "Handbook of Vascular Biometrics. Advances in Computer Vision and Pattern Recognition. London: Springer International Publishing",
+            "year": 2019,
+            "pages": "309-354",
+            "ISBN": "978-3-030-27730-7" 
+         },
+         {
+            "id": 5,
+            "authors": "CHARVAT M. and DRAHANSKY M.",
+            "title": "Detecting and Locating People Using Low-Cost Thermal Imaging Camera",
+            "publisher": "In: Beiträge zum Usability Day XVI - Assistenztechnologien in der Arbeitswelt. Dornbirn: Pabst Science Publishers",
+            "year": 2018,
+            "pages": "41-51",
+            "ISBN": "978-3-95853-405-6" 
+         },
+         {
+            "id": 6,
+            "authors": "DRAHANSKY M.",
+            "title": "Hand-Based Biometrics: Methods and Technology",
+            "publisher": "London: The Institution of Engineering and Technology",
+            "year": 2018,
+            "pages": "41-51",
+            "ISBN": "978-1-78561-224-4" 
+         },
+         {
+            "id": 7,
+            "authors": "HAJEK J. and DRAHANSKY M.",
+            "title": "Recognition-Based on Eye Biometrics: Iris and Retina. Biometric-Based Physical and Cybersecurity Systems",
+            "publisher": "Cham: Springer International Publishing",
+            "year": 2018,
+            "pages": "37-102",
+            "ISBN": "978-3-319-98733-0" 
+         },
+         {
+            "id": 8,
+            "authors": "LAI K.K., KANICH O., DVORAK M., DRAHANSKY M., YANUSHKEVICH S. and SHMERKO V.P.",
+            "title": "Biometric-Enabled Watchlists Technology",
+            "publisher": "IET Biometrics",
+            "year": 2017,
+            "vol": "7", 
+            "no": "2",
+            "pages": "163-172",
+            "ISSN": "2047-4938"            
+         },
+         {
+            "id": 9,
+            "authors": "BAROTOVA S. and DRAHANSKY M.",
+            "title": "Fingerprint Damage Localizer and Detector of Skin Diseases from Fingerprint Images",
+            "publisher": "In: Proceedings of the 16th International Conference of the Biometrics Special Interest Group. Lecture Notes in Informatics. Darmstadt: Springer Verlag",
+            "year": 2017,
+            "pages": "267-274",
+            "ISBN": "978-3-88579-664-0"            
+         },
+         {
+            "id": 10,
+            "authors": "DRAHANSKY M., KANICH O. and BREZINOVA E.",
+            "title": "Challenges for fingerprint recognition - spoofing, skin diseases and environmental effects",
+            "publisher": "Handbook of Biometrics for Forensic Science. Advances in Computer Vision and Pattern Recognition. Cham: Springer Verlag",
+            "year": 2017,
+            "pages": "63-83",
+            "ISBN": "978-3-319-50671-5"            
+         },
+         {
+            "id": 11,
+            "authors": "KANICH O. and DRAHANSKY M.",
+            "title": "Simulation of Synthetic Fingerprint Generation Using Petri Nets",
+            "publisher": "IET Biometrics",
+            "year": 2017,
+            "vol": "6", 
+            "no": "6",
+            "pages": "402-408",
+            "ISSN": "2047-4938"            
+         },
+         {
+            "id": 12,
+            "authors": "DVORAK M., DRAHANSKY M., KEMPTER G., MOHELNIKOVA J., LUZA R., RITTER W. and KUENZ A.",
+            "title": "Usability and Quality of Light Sources for Households",
+            "publisher": "In: Beiträge zum Usability Day XV - Umgebungsunterstütztes Leben. Dornbirn: Pabst Science Publishers",
+            "year": 2017,
+            "pages": "125-133",
+            "ISBN": "978-3-95853-316-5"            
+         },
+         {
+            "id": 13,
+            "authors": "EASTWOOD S.C., SHMERKO V.P., YANUSHKEVICH S., DRAHANSKY M. and GORODNICHY D.",
+            "title": "Biometric-Enabled Authentication Machines: A Survey of Open-Set Real-World Applications",
+            "publisher": "IEEE Transactions on Human-Machine Systems",
+            "year": 2016,
+            "vol": "46", 
+            "no": "2",
+            "pages": "231-242",
+            "ISSN": "2168-2291"            
+         },
+         {
+            "id": 14,
+            "authors": "MRACEK S., DVORAK R., VANA J., NOVOTNY T. and DRAHANSKY M.",
+            "title": "3D Face Recognition Utilizing a Low-Cost Depth Sensor",
+            "publisher": "11th IEEE International Conference on Automatic Face and Gesture Recognition (FG 2015). Ljubljana",
+            "year": 2015,
+            "ISBN": "978-1-4799-6026-2"            
+         },
+         {
+            "id": 15,
+            "authors": "SVOBODA J., BRONSTEIN M. and DRAHANSKY M.",
+            "title": "Contactless biometric hand geometry recognition using a low-cost 3D camera",
+            "publisher": "In: Proceedings 2015 International Conference on Biometrics. Phuket: IEEE Biometric Council",
+            "year": 2015,
+            "pages": "452-457",
+            "ISBN": "978-1-4799-7824-3"            
+         }
+      ]
+   },
+   "awards":{
+      "category_title": "Awards",
+      "entries":[
+        {
+            "id": 1,
+            "year": 2018,
+            "author": "DRAHANSKY Martin",
+            "title": "III. degree medal from the director of the Regional Directorate of the Police of the South Moravian Region for long-term superior and excellent collaboration with the Criminal Police and Investigation Service."
+        },
+        {
+            "id": 2,
+            "year": 2017,
+            "author": "BAROTOVA Stepanka, DRAHANSKY Martin",
+            "title": "Best Poster Award at the BIOSIG 2017 conference for the Fingerprint Damage Localiser and Detector of Skin Diseases from Fingerprint Images poster."
+         },
+         {
+            "id": 3,
+            "year": 2015,
+            "author": "STRaDe",
+            "title": "Silver Medal from the Rector of the Brno University of Technology for deserves in founding specialised laboratories at FIT BUT and the RUDA project."
+         },
+         {
+            "id": 4,
+            "year": 2015,
+            "author": "STRaDe",
+            "title": "Gold Medal in the category of automation, measurement and control equipment, sensor technology and robotics at the International Engineering Fair (MSV 2015) in Brno for the team product of the research group STRaDe - Robot for searching for people in debris and avalanches."
+         },
+         {
+            "id": 5,
+            "year": 2012,
+            "author": "DRAHANSKY Martin, ORSAG Filip",
+            "title": "Bronze Medal from the Dean of the Faculty of Information Technology Brno University of Technology."
+         },
+         {
+            "id": 6,
+            "year": 2005,
+            "author": "DRAHANSKY Martin",
+            "title": "Fraunhofer Patent Award for the “Verfahren und Vorrichtung zum Erfassen biometrischer Merkmale” patent."
+         }
+      ]
+   },
+   "doctoral_theses":
+   { 
+      "category_title": "Doctoral Theses",
+      "entries": [
+         {
+            "id": 1,
+            "author": "MALCIK, Dominik",
+            "title": " Analysis of attacks on (micro)chips and development of enhancement of their robustness/security.",
+            "year": 2020
+         },
+         {
+            "id": 2,
+            "author": "KANICH, Ondrej",
+            "title": " Research in fingerprint damage simulations.",
+            "year": 2019
+         },
+         {
+            "id": 3,
+            "author": "HAJEK, Josef",
+            "title": " Biometric system for retina and iris recognition.",
+            "year": 2017
+         },
+         {
+            "id": 4,
+            "author": "MRACEK, Stepan",
+            "title": " Hybrid 3D face recognition.",
+            "year": 2015
+         }
+      ]
+   },
+   "masters_theses":{
+      "category_title": "Master's Theses",
+      "entries":[
+        {
+            "id": 1,
+            "author": "CHARVAT, Michal",
+            "title": " System for human detection and localisation using thermal imaging cameras.",
+            "year": 2020
+         },
+         {
+            "id": 2,
+            "author": "MALANIK, Petr",
+            "title": " Manipulator control for acquisition of the retina.",
+            "year": 2020
+         },
+         {
+            "id": 3,
+            "author": "ZALESKY, Jiri",
+            "title": " Reconstruction of the bloodstream of the finger in 3D from a videosequence.",
+            "year": 2020
+         },
+         {
+            "id": 4,
+            "author": "PAWLUS, Jan",
+            "title": " Device for imitation of static and dynamic handwriting characteristics.",
+            "year": 2019
+         },
+         {
+            "id": 5,
+            "author": "GULAN, Filip",
+            "title": " Detection, localisation and determination of chronic wounds.",
+            "year": 2018
+         },
+         {
+            "id": 6,
+            "author": "ORAVEC, Tomas",
+            "title": " Methodology of fingerprint image quality measurement.",
+            "year": 2018
+         },
+         {
+            "id": 7,
+            "author": "TRETTER, Zdenek",
+            "title": " Generation of synthetic images of retinas.",
+            "year": 2017
+         },
+         {
+            "id": 8,
+            "author": "BARTA, Milan",
+            "title": " Generation of skin disease into synthetic fingerprints.",
+            "year": 2016
+         }         
+      ]
+   },
+   "bachelors_theses":{
+      "category_title": "Bachelor's Theses",
+      "entries":[
+        {
+            "id": 1,
+            "author": "KOSTIALIK, Gabriel",
+            "title": " Detection of diseases on the human retina.",
+            "year": 2020
+         },
+         {
+            "id": 2,
+            "author": "MUELLER, Dominik",
+            "title": " Construction of a pen with hidden acquisition of behavioural signature samples.",
+            "year": 2020
+         },
+         {
+            "id": 3,
+            "author": "PETRUSKA, Zdenko",
+            "title": " Remotely managed low-energy information display.",
+            "year": 2019
+         },
+         {
+            "id": 4,
+            "author": "PALACKOVA, Bianca",
+            "title": " Comparison of retinal images with pathological findings.",
+            "year": 2019
+         },
+         {
+            "id": 5,
+            "author": "SYKOROVA, Tereza",
+            "title": " Detection of diseases of diabetes on the human retina.",
+            "year": 2019
+         },
+         {
+            "id": 6,
+            "author": "MOLITORIS, Milos",
+            "title": " Acquisition and recognition of 3D signature.",
+            "year": 2018
+         },
+         {
+            "id": 7,
+            "author": "MYSZA, Robert",
+            "title": " Intelligent thermal camera with intruder detection.",
+            "year": 2018
+         },
+         {
+            "id": 8,
+            "author": "BAROTOVA, Stepanka",
+            "title": " Detector of skin diseases using fingerprint technology.",
+            "year": 2017
+         },
+         {
+            "id": 9,
+            "author": "STAREK, Jan",
+            "title": " Wearables development technologies for YSoft SafeQ.",
+            "year": 2017
+         },
+         {
+            "id": 10,
+            "author": "SVOBODA, Jakub",
+            "title": " Detector of the human head in image.",
+            "year": 2017
+         },
+         {
+            "id": 11,
+            "author": "JAROLIM, Jordan",
+            "title": " Reconstruction of data from damaged CD/DVD.",
+            "year": 2016
+         },
+         {
+            "id": 12,
+            "author": "SESTAK, Martin",
+            "title": " Recognition of skin diseases on the fingers of a human hand.",
+            "year": 2016
+         }         
+      ]
+   }
+}

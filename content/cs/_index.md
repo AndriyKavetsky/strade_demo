@@ -8,11 +8,13 @@ languageCode: "cs"
 
 {{< rawhtml >}}
 
-<h1 class="main_page"> Výzkum a Vývoj Bezpečnostních Technologií </h1>
+<h1 style=" text-align: center;"> Výzkum a Vývoj Bezpečnostních Technologií </h1>
+
+<h2 style=" text-align: center;"> Výzkumná skupina na Fakultě informačních technologií, Vysokého učení technického v Brně </h2>
 
 <img src="/images/background-team.jpg"
      alt="STRaDe Team"
-     style="float: center; margin-right: 10px; margin-left:100px;"
+     style="display: block; width: 90%; margin-right: auto; margin-left: auto;"
      width="1000px"
      height="500px" />
 

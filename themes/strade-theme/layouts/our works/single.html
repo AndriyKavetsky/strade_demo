@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{ .Title }} | {{ .Site.Title }}</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <!--<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/style.css">-->
+    <!--<link rel="stylesheet" type="text/css" href="{{ "css/style.css" | relURL }}"> -->
+</head>
+<body>
+  <div style="position: relative;">
+{{ partial "header.html" . }}
+  <main class="our_works_main">
+    {{ .Content }}
+      
+    {{ $achievements_en := site.Data.achievements_en }}
+    <select id="achievement_groups">
+      <option value="All_groups" > All categories </option>
+      {{ range $achievements_en }}
+      <option value="{{.category_title}}" > {{.category_title}} </option>
+      {{ end }}
+    </select>
+    
+    <select id="year_groups" data-lang="{{.Lang}}" data-url="{{ .Site.BaseURL }}" >
+      <option value="All_years">-- All years --</option>
+    </select>
+<script>  
+  // getting the current language
+  const select = document.getElementById('year_groups');
+  const lang = select.getAttribute('data-lang'); // get the current page's language
+  const absLangDir = select.getAttribute('data-url');
+  const jsonUrl = `${absLangDir}/achievements_${lang}.json`; // construct the URL for the JSON file
+
+  // populate year dropdown
+  fetch(jsonUrl)
+  .then(response => response.json())
+  .then(data => {
+    const years = new Set();
+    Object.values(data).forEach(category => 
+      Object.values(category.entries).forEach(entry => 
+        years.add(entry.year)
+      )      
+    );
+    [...years].sort().reverse().forEach(year => {
+      const optionElem = document.createElement('option');
+      optionElem.value = year;
+      optionElem.text = year;
+      select.add(optionElem);
+    }); 
+  })
+  .catch(error => {
+    console.error(error)
+  });
+
+  function loadData() {
+        var selectedYear = document.getElementById("year_groups").value;
+        var selectedCategory = document.getElementById("achievement_groups").value;
+        
+        fetch(jsonUrl)
+            .then(response => response.json())
+            .then(data => displayData(data, selectedYear, selectedCategory))
+            .catch(error => console.error(error));
+      }
+  function displayData(data, selectedYear, selectedCategory) {
+        var div = document.getElementById("patents");
+        div.innerHTML = "";
+        div.innerHTML += "<h2>" + "PATENTS" + "</h2>";
+
+        Object.values(data).forEach(category =>
+          category.entries.forEach(entry => 
+          {
+            if (entry.year == selectedYear) {
+              div.innerHTML += "<p>" + entry.title + entry.year +  "</p>";
+            } else if (selectedYear == "All_years")
+            {
+              div.innerHTML += "<p>" + entry.title + entry.year +  "</p>";
+            }
+          })
+        );
+
+        const divBlocksCategories = [];
+        var divCategoriesBlocks = document.getElementById("divCategories").children;
+        console.log(divCategoriesBlocks)
+                
+      }
+  document.addEventListener("DOMContentLoaded", loadData);
+  document.getElementById("year_groups").addEventListener("change", loadData);  
+
+</script>
+
+    <div id="divCategories">
+      <div id="patents"> </div>
+      <div id="utility_models"> </div>
+      <div id="industrial_designs"> </div>
+      <div id="prototypes"> </div>
+      <div id="software"> </div>
+      <div id="publications"> </div>
+      <div id="awards"> </div>
+      <div id="doctoral_theses"> </div>
+      <div id="masters_theses"> </div>
+      <div id="bachelors_theses"> </div>
+    </div>
+
+    {{ if eq .Site.Language.Lang "en" }}
+      {{ $achievements_en := site.Data.achievements_en }}
+      <h2> PATENTS </h2>
+      <ol>
+        {{ range $achievements_en.patents.entries }}
+          <li>
+            <p style="font-weight: bold;">{{ .title }}.</p>
+            <p>[{{ .origion }} , {{ .year }}] - {{ .description }} </p> 
+          </li>
+        {{ end }}
+      </ol> 
+      
+      <h2> UTILITY MODELS </h2>
+      <ol>
+        {{ range $achievements_en.utility_models.entries }}
+          <li>
+            <p style="font-weight: bold;">{{ .title }}.</p>
+            <p>[{{ .origion }} , {{ .year }}] - {{ .description }} </p> 
+          </li>
+        {{ end }}
+      </ol>
+      
+      <h2> INDUSTRIAL DESIGNS </h2>
+      <ol>
+        {{ range $achievements_en.industrial_designs.entries }}
+          <li>
+            <p style="font-weight: bold;">{{ .title }}.</p>
+            <p>[{{ .origion }} , {{ .year }}] - {{ .description }} </p> 
+          </li>
+        {{ end }}
+      </ol>
+
+      <h2> PROTOTYPES </h2>
+      <ol>
+        {{ range $achievements_en.prototypes.entries }}
+          <li>
+            <p style="font-weight: bold;">{{ .title }}.</p>
+            <p>[{{ .year }}] - {{ .description }} </p> 
+          </li>
+        {{ end }}
+      </ol> 
+
+      <h2> SOFTWARE </h2>
+      <ol>
+        {{ range $achievements_en.software.entries }}
+        <li>
+          <p style="font-weight: bold;">{{ .title }}.</p>
+          <p>[{{ .year }}] - {{ .description }} </p> 
+        </li>
+        {{ end }}
+      </ol>  
+
+      <h2> SELECTED PUBLICATIONS </h2>      
+      <ol>        
+        {{ range $achievements_en.publications.entries }}
+        <li> {{ .authors }} {{ .title }}. {{ .publisher }}, {{ .year }},
+          {{ if .vol }}
+            vol. {{ .vol }},
+          {{ end }}
+          {{ if .no }}
+            no. {{ .no }},
+          {{ end }}
+          {{ if .pages }}
+            pp. {{ .pages }}.
+          {{ end }}
+          {{ if .ISBN }}
+            ISBN {{ .ISBN }}.
+          {{ end }}
+          {{ if .ISSN }}
+            ISSN {{ .ISSN }}.
+          {{ end }}
+        </li>
+        {{ end }}
+      </ol>
+
+      <h2> AWARDS </h2>
+      <ol>
+        {{ range $achievements_en.awards.entries }}
+        <li> 
+          {{ .year }} - {{ .author }}.
+          {{ .title }} 
+        </li>
+        {{ end }}
+      </ol>
+    
+      <h2>SELECTED THESES</h2>
+
+      <h3> Doctoral Theses </h3>
+      <ol>
+        {{ range $achievements_en.doctoral_theses.entries }}
+        <li> {{ .author }}. {{ .title }} {{ .year }}. </li>
+        {{ end }}
+      </ol> 
+      
+      <h3> Master's Theses </h3>
+      <ol>
+        {{ range $achievements_en.masters_theses.entries }}
+        <li> {{ .author }}. {{ .title }} {{ .year }}. </li>
+        {{ end }}
+      </ol>
+      
+      <h3> Bachelor's Theses</h3>
+      <ol>
+        {{ range $achievements_en.bachelors_theses.entries }}
+        <li> {{ .author }}. {{ .title }} {{ .year }}. </li>
+        {{ end }}
+      </ol>
+
+    {{ else }}
+
+      {{ $achievements_cs := site.Data.achievements_cs }}
+      <h2> PATENTY </h2>
+      
+      <h2> UŽITNÉ MODELY </h2>
+
+      <h2> PRŮMYSLOVÉ NÁVRHY </h2>
+    
+      <h2> PROTOTYPY </h2>
+    
+      <h2> SOFTWARE</h2>
+    
+      <h2> VYBRANÉ PUBLIKACE </h2>      
+      <ol>
+        {{ range $achievements_cs.publications }}
+        <li> {{ .authors }} {{ .title }}. {{ .publisher }}, {{ .year }}.
+          {{ if .pages }}
+            pp {{ .pages }}.
+          {{ end }}
+          {{ if .ISBN }}
+            ISBN {{ .ISBN }}.
+          {{ end }}
+        </li>
+        {{ end }}
+      </ol>
+    
+      <h2> OCENĚNÍ </h2>
+    
+      <h2> VYBRANÉ TEZE</h2>
+          
+    {{ end }}
+    
+  </main>
+{{ partial "footer.html" . }}
+</div>
+</body>
+</html>

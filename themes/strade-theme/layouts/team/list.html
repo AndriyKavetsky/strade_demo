@@ -11,6 +11,11 @@
 <body>
     {{ partial "header" .}}
     <main>
+      {{ if eq .Site.Language.Lang "en" }}  
+        <h1 style="text-align: center;"> Team Members </h1>  
+      {{ else }}
+      <h1 style="text-align: center;"> Členové Týmu </h1> 
+      {{ end }}
     {{.Content}}
     {{ range .Pages }}
         <div style="display:flex">

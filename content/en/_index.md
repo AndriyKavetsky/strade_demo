@@ -8,11 +8,13 @@ languageCode: "en"
 
 {{< rawhtml >}}
 
-<h1 class="main_page"> Security Technology Research and Development </h1>
+<h1 style=" text-align: center;"> Security Technology Research and Development </h1>
+
+<h2 style=" text-align: center;"> Research group at Faculty of Information Technology, Brno University of Technology </h2>
 
 <img src="/images/background-team.jpg"
      alt="STRaDe Team"
-     style="float: center; margin-right: 10px; margin-left:100px;"
+     style="display: block; width: 90%; margin-right: auto; margin-left: auto;"
      width="1000px"
      height="500px" />
 

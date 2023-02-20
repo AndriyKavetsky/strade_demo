@@ -11,10 +11,6 @@
         </a>
       {{ end }}
 
-     <!-- <a class="logo" href="{{ .Site.BaseURL }}">
-        <img src="/strd.png" alt="Logo">
-      </a>-->
-
       <ul style="display: inline-block;">
         {{ if eq .Site.Language.Lang "en" }}
           {{ $menu := .Site.Menus.main }}
@@ -55,6 +51,9 @@
         {{ if .Site.IsMultiLingual }}
 	        {{ range .Site.Languages }}
 	          {{ if eq . $.Site.Language }}
+              {{if eq .LanguageName "English"}}
+                {{ $lang_image_name := ""}}
+              {{end}}
 		          <li class="submenu-item"><a href="#" class="active language">{{ .LanguageName }}</a></li>
 	          {{ else }}
 		          {{ range $.Translations }}

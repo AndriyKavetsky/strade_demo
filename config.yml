@@ -2,6 +2,7 @@
 languageCode: 'en-us'
 title: 'STRaDe'
 theme: strade-theme # gohugo-theme-ananke # ga-hugo-theme # hugo-PaperMod # hugo-arogya-theme # 
+staticDir: "data"
 
 outputs:
   home:
@@ -43,9 +44,9 @@ menu:
       name: Team
       url: /en/team/
       weight: 3
-    - identifier: Our Achievements
-      name: Our Achievements
-      url: /en/our-achievements
+    - identifier: Our Works
+      name: Our Works
+      url: /en/our-works
       weight: 4  
     - identifier: News
       name: "News"
@@ -77,9 +78,9 @@ menu:
       name: Tým
       url: /team/
       weight: 3
-    - identifier: Naše úspěchy
-      name: Naše úspěchy
-      url: /our-achievements
+    - identifier: Naše práce
+      name: Naše práce
+      url: /our-works
       weight: 4
     - identifier: Zprávy
       name: "Zprávy"

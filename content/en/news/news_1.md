@@ -4,6 +4,7 @@ url: "/en/news_1/"
 languageCode: "en"
 tags: ["Summer School"]
 date: 2019-06-20T17:06:16+01:00
+text_image_folder: "SummerSchoolOfBiometry"
 ---
 
 {{< rawhtml >}}

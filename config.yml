@@ -2,7 +2,11 @@
 languageCode: 'en-us'
 title: 'STRaDe'
 theme: strade-theme # gohugo-theme-ananke # ga-hugo-theme # hugo-PaperMod # hugo-arogya-theme # 
-staticDir: "data"
+staticDir: 
+            - "data"
+            - "/images/album/"
+
+
 
 outputs:
   home:

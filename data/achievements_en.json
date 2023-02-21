@@ -1,6 +1,7 @@
 {  
    "patents":{
       "category_title": "Patents",
+      "display_type": 1,
       "entries":[
          {
             "id": 1,
@@ -48,6 +49,7 @@
    },
    "utility_models":{
       "category_title": "Utility Models",
+      "display_type": 1,
       "entries":[
          {
             "id": 1,
@@ -116,6 +118,7 @@
    },
    "industrial_designs":{
       "category_title": "Industrial Designs",
+      "display_type": 1,
       "entries":[
          {
             "id": 1,
@@ -135,6 +138,7 @@
    },
    "prototypes":{
       "category_title": "Prototypes",
+      "display_type": 2,
       "entries":[
          {
             "id": 1,
@@ -176,6 +180,7 @@
    },
    "software":{
       "category_title": "Software",
+      "display_type": 2,
       "entries": [
          {
             "id": 1,
@@ -271,6 +276,7 @@
    },
    "publications":{
       "category_title": "Publications",
+      "display_type": 3,
       "entries": [
         {
             "id": 1,
@@ -416,6 +422,7 @@
    },
    "awards":{
       "category_title": "Awards",
+      "display_type": 4,
       "entries":[
         {
             "id": 1,
@@ -458,6 +465,7 @@
    "doctoral_theses":
    { 
       "category_title": "Doctoral Theses",
+      "display_type": 5,
       "entries": [
          {
             "id": 1,
@@ -487,6 +495,7 @@
    },
    "masters_theses":{
       "category_title": "Master's Theses",
+      "display_type": 5,
       "entries":[
         {
             "id": 1,
@@ -540,6 +549,7 @@
    },
    "bachelors_theses":{
       "category_title": "Bachelor's Theses",
+      "display_type": 5,
       "entries":[
         {
             "id": 1,

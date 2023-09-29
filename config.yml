@@ -1,4 +1,4 @@
-#baseURL: 'http://strade.com/'
+baseURL: 'https://neon-bavarois-d00b74.netlify.app/' #'http://strade.com/'
 languageCode: 'en-us'
 title: 'STRaDe'
 theme: strade-theme # gohugo-theme-ananke # ga-hugo-theme # hugo-PaperMod # hugo-arogya-theme # 

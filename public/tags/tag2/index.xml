@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tag2 on STRaDe</title>
+    <link>/tags/tag2/</link>
+    <description>Recent content in tag2 on STRaDe</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/tags/tag2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Us</title>
+      <link>/</link>
+      <pubDate>Wed, 08 Feb 2023 19:07:37 +0100</pubDate>
+      
+      <guid>/</guid>
+      <description>Security Technology Research and Development Research group at Faculty of Information Technology, Brno University of Technology The Security Technology Research and Development research group (STRaDe) has been part of the Department of Intelligent Systems at the Faculty of Information Technology of Brno University of Technology since 2010. The main focus of the STRaDe group is research and development in the field of security technologies with an emphasis on both hardware and software aspects.</description>
+    </item>
+    
+    <item>
+      <title>News</title>
+      <link>/en/news/</link>
+      <pubDate>Wed, 26 Aug 2020 17:06:16 +0100</pubDate>
+      
+      <guid>/en/news/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

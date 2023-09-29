@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on STRaDe</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on STRaDe</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 26 Aug 2020 17:06:16 +0100</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>International Cooperation</title>
+      <link>/tags/international-cooperation/</link>
+      <pubDate>Wed, 26 Aug 2020 17:06:16 +0100</pubDate>
+      
+      <guid>/tags/international-cooperation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Students</title>
+      <link>/tags/students/</link>
+      <pubDate>Mon, 13 Jul 2020 17:06:16 +0100</pubDate>
+      
+      <guid>/tags/students/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visits</title>
+      <link>/tags/visits/</link>
+      <pubDate>Mon, 13 Jul 2020 17:06:16 +0100</pubDate>
+      
+      <guid>/tags/visits/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Summer School</title>
+      <link>/tags/summer-school/</link>
+      <pubDate>Thu, 20 Jun 2019 17:06:16 +0100</pubDate>
+      
+      <guid>/tags/summer-school/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tag1</title>
+      <link>/tags/tag1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/tag1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tag2</title>
+      <link>/tags/tag2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/tag2/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

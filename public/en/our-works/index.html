@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Publications | STRaDe</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+</head>
+<body>
+  <div style="position: relative;">
+<header>
+    <nav class="navbar">
+      
+      
+        <a class="logo" href="/en/index.html">
+          <img src="/strd.png" alt="Logo">
+        </a>
+      
+
+      <ul style="display: inline-block;">
+        
+          
+          
+                <li><a href="/en/">About Us</a>
+                
+                </li>
+          
+                <li><a href="/en/areas-of-interest">Areas of Interest</a>
+                
+                </li>
+          
+                <li><a href="/en/team/">Team</a>
+                
+                </li>
+          
+                <li><a href="/en/our-works">Our Works</a>
+                
+                </li>
+          
+                <li><a href="/en/news/">News</a>
+                
+                </li>
+          
+                <li><a href="/en/events/">Events</a>
+                
+                </li>
+          
+                <li><a href="/en/contacts">Contacts</a>
+                
+                </li>
+          
+        
+        
+        
+             
+             
+                                    
+        
+
+        
+	        
+	          
+              
+              <li class="submenu-item"><a href="#" class="active language"><img src="/images/languagues/en.ico" alt="img" style="max-width: 20px; max-height: 24px"></img> English</a></li>
+              
+	          
+	        
+	          
+		          
+                  
+                  <li class="submenu-item"><a href="/our-works/" class=""><img src="/images/languagues/cz.ico" alt="img" style="max-width: 20px; max-height: 24px"></img> Czech</a></li>
+                  		            
+		          
+	          
+	        
+        
+
+      </ul>
+    </nav>
+
+</header>
+  
+  <main class="our_works_main">
+    
+    
+    
+    <div class="selector">
+    <div class="custom-select" >
+      <select id="achievement_groups">
+        <option value="All_groups" > All categories </option>
+        
+        <option value="Awards" > Awards </option>
+        
+        <option value="Bachelor&#39;s Theses" > Bachelor&#39;s Theses </option>
+        
+        <option value="Doctoral Theses" > Doctoral Theses </option>
+        
+        <option value="Industrial Designs" > Industrial Designs </option>
+        
+        <option value="Master&#39;s Theses" > Master&#39;s Theses </option>
+        
+        <option value="Patents" > Patents </option>
+        
+        <option value="Prototypes" > Prototypes </option>
+        
+        <option value="Publications" > Publications </option>
+        
+        <option value="Software" > Software </option>
+        
+        <option value="Utility Models" > Utility Models </option>
+        
+      </select>
+    </div>
+    <div class="custom-select" >
+      <select id="year_groups" data-lang="en" data-url="" >
+        <option value="All_years">-- All years --</option>
+      </select>
+    </div>
+  </div>
+
+<script>  
+  
+  const select = document.getElementById('year_groups');
+  const lang = select.getAttribute('data-lang'); 
+  const absLangDir = select.getAttribute('data-url');
+  const jsonUrl = `${absLangDir}/achievements_${lang}.json`; // construct the URL for the JSON file
+
+  
+  fetch(jsonUrl)
+  .then(response => response.json())
+  .then(data => {
+    const years = new Set();
+    Object.values(data).forEach(category => 
+      Object.values(category.entries).forEach(entry => 
+        years.add(entry.year)
+      )      
+    );
+    [...years].sort().reverse().forEach(year => {
+      const optionElem = document.createElement('option');
+      optionElem.value = year;
+      optionElem.text = year;
+      select.add(optionElem);
+    }); 
+  })
+  .catch(error => {
+    console.error(error)
+  });
+
+  function loadData() {
+        var selectedYear = document.getElementById("year_groups").value;
+        var selectedCategory = document.getElementById("achievement_groups").value;
+        
+        fetch(jsonUrl)
+            .then(response => response.json())
+            .then(data => displayData(data, selectedYear, selectedCategory))
+            .catch(error => console.error(error));
+      }
+
+  function displayParagraph(divBlock,entry,display_type){
+    switch (display_type){
+      case 0:{
+        divBlock.innerHTML += "<p>" + entry.title + entry.year +  "</p>";
+        break;
+      }
+      case 1:{
+        divBlock.innerHTML += "<p style=\"font-weight: bold;\">" + entry.title +  "</p>";
+        divBlock.innerHTML += "<p> [" + entry.origion + "," + entry.year + "] - " + entry.description + "</p>"; 
+        break;
+      }
+      case 2:{
+        divBlock.innerHTML += "<p style=\"font-weight: bold;\">" + entry.title +  "</p>";
+        divBlock.innerHTML += "<p> [" + entry.year + "] - " + entry.description + "</p>"; 
+        break; 
+      }
+      case 3:{
+        divBlock.innerHTML += "<p>" + entry.authors + " " + entry.title + ". " + entry.publisher + ", " + entry.year + "." + "</p>";
+        break;
+      }
+      case 4:{
+        divBlock.innerHTML += "<p>" + entry.year + " - " + entry.author + ". " + entry.title + "</p>";
+        break;
+      }
+      case 5:{
+        divBlock.innerHTML += "<p>" + entry.author + ". " + entry.title + " " + entry.year + ". " + "</p>";
+        break;
+      }
+
+
+    }
+  }
+
+  function displayData(data, selectedYear, selectedCategory) {
+        const divBlocksCategories = [];
+        var divCategoriesBlocks = document.getElementById("divCategories").children;
+
+        
+        Object.values(divCategoriesBlocks).forEach( category =>
+        {
+          category.innerHTML = ""
+          divBlocksCategories[category.id] = category;          
+        }
+        );
+        
+        
+        Object.entries(data).forEach( entry => 
+          {
+            const [groupKey, category] = entry;
+            if(category.category_title == selectedCategory){
+              divBlocksCategories[groupKey].innerHTML += "<h2>" + category.category_title + "</h2>";
+              category.entries.forEach( entry =>
+                {
+                  if (entry.year == selectedYear) {
+                    displayParagraph(divBlocksCategories[groupKey],entry,category.display_type);
+                  } else if (selectedYear == "All_years")
+                  {
+                    displayParagraph(divBlocksCategories[groupKey],entry,category.display_type);                    
+                  }
+                }                              
+              );             
+            } else if( selectedCategory == 'All_groups'){
+              divBlocksCategories[groupKey].innerHTML += "<h2>" + category.category_title + "</h2>";
+              category.entries.forEach( entry =>
+                {
+                  if (entry.year == selectedYear) {
+                    displayParagraph(divBlocksCategories[groupKey],entry,category.display_type);
+                    
+                  } else if (selectedYear == "All_years")
+                  {
+                    displayParagraph(divBlocksCategories[groupKey],entry,category.display_type);
+                    
+                  }
+                }                
+              );
+            }            
+          }
+        );               
+      }
+  document.addEventListener("DOMContentLoaded", loadData);
+  document.getElementById("year_groups").addEventListener("change", loadData);  
+  document.getElementById("achievement_groups").addEventListener("change",loadData);
+
+</script>
+    
+    <div id="divCategories">
+      <div id="patents"> </div>
+      <div id="utility_models"> </div>
+      <div id="industrial_designs"> </div>
+      <div id="prototypes"> </div>
+      <div id="software"> </div>
+      <div id="publications"> </div>
+      <div id="awards"> </div>
+      <div id="doctoral_theses"> </div>
+      <div id="masters_theses"> </div>
+      <div id="bachelors_theses"> </div>
+    </div>
+
+    
+    
+  </main>
+<footer>
+    <div class="footer_info">
+        © 2023 STRaDe - Security Technology Research and Development 
+    </div>
+</footer>
+
+</div>
+</body>
+</html>

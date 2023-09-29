@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tým on STRaDe</title>
+    <link>/en/team/</link>
+    <description>Recent content in Tým on STRaDe</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/en/team/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Martin Drahansky</title>
+      <link>/en/team_member_Martin%20Drahansky/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/team_member_Martin%20Drahansky/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Filip Orsag</title>
+      <link>/en/team_member_Filip%20Orsag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/team_member_Filip%20Orsag/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ondrej Kanich</title>
+      <link>/en/team_member_Ondrej%20Kanich/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/team_member_Ondrej%20Kanich/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lukas Semerad</title>
+      <link>/en/team_member_Lukas%20Semerad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/team_member_Lukas%20Semerad/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

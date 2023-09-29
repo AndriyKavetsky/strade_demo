@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>International Cooperation on STRaDe</title>
+    <link>/tags/international-cooperation/</link>
+    <description>Recent content in International Cooperation on STRaDe</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 26 Aug 2020 17:06:16 +0100</lastBuildDate><atom:link href="/tags/international-cooperation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sangeeta is flying home</title>
+      <link>/en/news_4/</link>
+      <pubDate>Wed, 26 Aug 2020 17:06:16 +0100</pubDate>
+      
+      <guid>/en/news_4/</guid>
+      <description>Sangeeta has spent the last two years with us here in STRaDe doing research on retinal image processing and has become not only our colleague but also a friend. After this time her stay here finally came to an end and Sangeeta is flying back home, to Bangladesh. She might be leaving permanently, but if everything goes well Sangeeta will return to us once again next year in spring. In the meantime we wish her all the best while we now must get accustomed to her absence from our lab where she had been a constant presence.</description>
+    </item>
+    
+    <item>
+      <title>Assoc. Prof. Waleed Abdulla visited our group</title>
+      <link>/en/news_2/</link>
+      <pubDate>Tue, 12 Nov 2019 17:06:16 +0100</pubDate>
+      
+      <guid>/en/news_2/</guid>
+      <description>Assoc. Prof. Waleed Abdulla of University of Auckland visited our STRaDe research group as a part of a sabbatical leave. Here he attended to the mathematical apparatus of selected disertation topics. Consultations and discussions between us will likely result in more than a single publication. Assoc. Prof. Abdulla specialises in human biometry, signal and speech processing, hyperspectral imaging applications and more.</description>
+    </item>
+    
+  </channel>
+</rss>

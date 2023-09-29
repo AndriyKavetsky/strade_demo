@@ -12,18 +12,24 @@
 {{ partial "header.html" . }}
   <main class="our_works_main">
     {{ .Content }}
-      
     {{ $achievements_en := site.Data.achievements_en }}
-    <select id="achievement_groups">
-      <option value="All_groups" > All categories </option>
-      {{ range $achievements_en }}
-      <option value="{{.category_title}}" > {{.category_title}} </option>
-      {{ end }}
-    </select>
     
-    <select id="year_groups" data-lang="{{.Lang}}" data-url="{{ .Site.BaseURL }}" >
-      <option value="All_years">-- All years --</option>
-    </select>
+    <div class="selector">
+    <div class="custom-select" >
+      <select id="achievement_groups">
+        <option value="All_groups" > All categories </option>
+        {{ range $achievements_en }}
+        <option value="{{.category_title}}" > {{.category_title}} </option>
+        {{ end }}
+      </select>
+    </div>
+    <div class="custom-select" >
+      <select id="year_groups" data-lang="{{.Lang}}" data-url="{{ .Site.BaseURL }}" >
+        <option value="All_years">-- All years --</option>
+      </select>
+    </div>
+  </div>
+
 <script>  
   // getting the current language
   const select = document.getElementById('year_groups');

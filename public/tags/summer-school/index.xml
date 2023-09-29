@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Summer School on STRaDe</title>
+    <link>/tags/summer-school/</link>
+    <description>Recent content in Summer School on STRaDe</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 Jun 2019 17:06:16 +0100</lastBuildDate><atom:link href="/tags/summer-school/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Our Members at Summer School of Biometry</title>
+      <link>/en/news_1/</link>
+      <pubDate>Thu, 20 Jun 2019 17:06:16 +0100</pubDate>
+      
+      <guid>/en/news_1/</guid>
+      <description>Martin Sakin and Jan Tinka spent a week at a biometry summer school organized by professor Massimo Tistarelli in Alghero in Sardinia, where they attended lectures and took part in discussions on topics ranging from person recognition based on iris to recognition based on gait patterns. The main topic of this year’s summer school was not only biometry but also application of deep learning methods and other machine learning for biometric purposes.</description>
+    </item>
+    
+  </channel>
+</rss>

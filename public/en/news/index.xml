@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News on STRaDe</title>
+    <link>/en/news/</link>
+    <description>Recent content in News on STRaDe</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 26 Aug 2020 17:06:16 +0100</lastBuildDate><atom:link href="/en/news/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sangeeta is flying home</title>
+      <link>/en/news_4/</link>
+      <pubDate>Wed, 26 Aug 2020 17:06:16 +0100</pubDate>
+      
+      <guid>/en/news_4/</guid>
+      <description>Sangeeta has spent the last two years with us here in STRaDe doing research on retinal image processing and has become not only our colleague but also a friend. After this time her stay here finally came to an end and Sangeeta is flying back home, to Bangladesh. She might be leaving permanently, but if everything goes well Sangeeta will return to us once again next year in spring. In the meantime we wish her all the best while we now must get accustomed to her absence from our lab where she had been a constant presence.</description>
+    </item>
+    
+    <item>
+      <title>High School Students on a Field Trip to STRaDe</title>
+      <link>/en/news_3/</link>
+      <pubDate>Mon, 13 Jul 2020 17:06:16 +0100</pubDate>
+      
+      <guid>/en/news_3/</guid>
+      <description>South Moravian high school students interested in learning more about the STRaDe research group and biometry visited us as a part of the T-exkurze – a field trip project organised by the JCMM. Martin Drahanský introduced them to the topic of biometry in his informative lecture after which we welcomed the students in our biometric lab. There we gave them the opportunity to explore some of the techniques and technologies used in biometry but also to experience them firsthand.</description>
+    </item>
+    
+    <item>
+      <title>Assoc. Prof. Waleed Abdulla visited our group</title>
+      <link>/en/news_2/</link>
+      <pubDate>Tue, 12 Nov 2019 17:06:16 +0100</pubDate>
+      
+      <guid>/en/news_2/</guid>
+      <description>Assoc. Prof. Waleed Abdulla of University of Auckland visited our STRaDe research group as a part of a sabbatical leave. Here he attended to the mathematical apparatus of selected disertation topics. Consultations and discussions between us will likely result in more than a single publication. Assoc. Prof. Abdulla specialises in human biometry, signal and speech processing, hyperspectral imaging applications and more.</description>
+    </item>
+    
+    <item>
+      <title>Our Members at Summer School of Biometry</title>
+      <link>/en/news_1/</link>
+      <pubDate>Thu, 20 Jun 2019 17:06:16 +0100</pubDate>
+      
+      <guid>/en/news_1/</guid>
+      <description>Martin Sakin and Jan Tinka spent a week at a biometry summer school organized by professor Massimo Tistarelli in Alghero in Sardinia, where they attended lectures and took part in discussions on topics ranging from person recognition based on iris to recognition based on gait patterns. The main topic of this year’s summer school was not only biometry but also application of deep learning methods and other machine learning for biometric purposes.</description>
+    </item>
+    
+  </channel>
+</rss>

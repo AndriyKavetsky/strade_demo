@@ -1,0 +1,166 @@
+*{
+  box-sizing: border-box;
+}
+
+
+body {
+  font: 400 15px Lato, sans-serif;
+  line-height: 1.8;
+  color: black;
+  margin: 0px;
+  /*padding: 20px;*/
+  /*width: 100%;
+  overflow-x: hidden;*/
+}
+/*
+h2 {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #303030;
+  font-weight: 600;
+  margin-bottom: 0px;
+}*/
+/*
+h4 {
+  font-size: 19px;
+  line-height: 1.375em;
+  color: #303030;
+  font-weight: 400;
+  margin-bottom: 30px;
+} */ 
+
+header {
+  /*background-image: url("/images/Header_background.png");
+  background-color: gainsboro;
+  background-repeat: repeat;
+  padding-bottom: 0.5rem;
+  min-height: 70px;*/
+  /*position: fixed;*/
+
+/*
+z-index: 10;
+right: 0;
+left: 0;
+top: 0;
+display: block;*/
+
+
+height: auto;
+background-color: #fff;
+box-shadow: 0 .125rem .25rem rgba(0,0,0,.11);
+font-size: 16.17px;
+padding: 0 1rem;
+}
+
+main{
+  padding: 10px 100px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 400px;
+}
+
+footer {
+  background-color: #fff;
+  border-top: 2px solid rgba(0,0,0,.11);
+  padding-bottom: 0.1rem;
+  /*padding: auto;*/
+  min-height: 60px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.logo {
+  float: left;
+  margin: auto;
+  /*padding: auto;*/
+}
+
+.logo img{
+  max-width: 200px; 
+  max-height: 100px;
+}
+
+.footer_info{
+  padding: 20px;
+}
+
+nav ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+nav li {
+  /* we could also use display: inline/inline-block */
+  float: left;
+  margin: 1rem 0;
+  color: white;
+}
+
+nav a {
+  display: inline-block;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+
+#team_img_logo {
+  /*border-radius: 50%;*/
+  max-width:100%;
+  max-height:100%;
+}
+
+.our_works_main ol{
+  text-align: justify
+}
+
+.frame-browser img {
+  display: block;
+  border-radius: 0;
+  border: 0;
+  margin: 0;
+}
+
+.selector{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -5px;
+  margin-left: -5px;
+  margin-bottom: 1.5rem !important;
+}
+
+/*the container must be positioned relative:*/
+.custom-select {
+  flex: none;
+  width: auto;
+  max-width: 100%;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.custom-select select{
+  word-wrap: normal;
+  display: inline-block;
+  width: 100%;
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.custom-select select:focus{
+  border-color: #1565c0;
+  box-shadow: 0 0 0 .2rem #217ee7;
+}

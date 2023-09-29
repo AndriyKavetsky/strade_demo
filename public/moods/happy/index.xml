@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>happy on STRaDe</title>
+    <link>/moods/happy/</link>
+    <description>Recent content in happy on STRaDe</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/moods/happy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Events</title>
+      <link>/en/areas-of-interest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/areas-of-interest/</guid>
+      <description>Biometrics Biometry is our main topic and we are very experienced team in this area. We have started with biometry in 2000, when our current leaders Doc. Drahanský and Dr. Orság were working on their diploma thesis aimed at fingerprints and voice recognition. When we established our research group STRaDe in 2004, we increased count of our BSc and MSc students together with count of topics we were dealing with. Later, after Doc.</description>
+    </item>
+    
+    <item>
+      <title>Tým</title>
+      <link>/en/team/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/team/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

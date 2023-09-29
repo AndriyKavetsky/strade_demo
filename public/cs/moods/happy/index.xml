@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>happy on STRaDe</title>
+    <link>/cs/moods/happy/</link>
+    <description>Recent content in happy on STRaDe</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/cs/moods/happy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Oblasti Zájmu</title>
+      <link>/areas-of-interest/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/areas-of-interest/</guid>
+      <description>Biometrie V oblasti biometrických systémů jsme poměrně zkušeným týmem. Počátky se datují do roku 2000, kdy doc. Drahanský řešil diplomovou práci na rozpoznávání otisků prstů, zároveň dr. Orság řešil diplomovou práci na rozpoznávání hlasu. Se založením výzkumné skupiny STRaDe a přibývajícími studenty nejen doktorského, avšak i magisterského či bakalářského studia, jsme se začali zabývat poměrně rozsáhlou skupinou biometrických témat. Zpočátku to byly právě otisky prstů a hlas, posléze jsme hlas opustili, avšak započali jsme výzkum v oblasti detekce živosti (především na prstech), rozpoznávání 3D obličeje, dále 3D ruky a žil prstu či ruky, výrobou různých falzifikátů biometrických charakteristik, přičemž v poslední době jsme se začali věnovat snímání a rozpoznávání duhovky a sítnice oka.</description>
+    </item>
+    
+    <item>
+      <title>Tým</title>
+      <link>/team/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/team/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

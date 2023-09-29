@@ -52,12 +52,17 @@
 	        {{ range .Site.Languages }}
 	          {{ if eq . $.Site.Language }}
               {{if eq .LanguageName "English"}}
-                {{ $lang_image_name := ""}}
-              {{end}}
-		          <li class="submenu-item"><a href="#" class="active language">{{ .LanguageName }}</a></li>
+              <li class="submenu-item"><a href="#" class="active language"><img src="/images/languagues/en.ico" alt="img" style="max-width: 20px; max-height: 24px"></img> {{ .LanguageName }}</a></li>
+              {{ else }}
+		          <li class="submenu-item"><a href="#" class="active language"><img src="/images/languagues/cz.ico" alt="img" style="max-width: 20px; max-height: 24px"></img> {{ .LanguageName }}</a></li>
+              {{ end }}
 	          {{ else }}
 		          {{ range $.Translations }}
-		            <li class="submenu-item"><a href="{{ .Permalink }}" class="">{{ .Language.LanguageName }}</a></li>
+                  {{if eq .Language.LanguageName "English"}}
+                  <li class="submenu-item"><a href="{{ .Permalink }}" class=""><img src="/images/languagues/en.ico" alt="img" style="max-width: 20px; max-height: 24px"></img> {{ .Language.LanguageName }}</a></li>
+                  {{ else }}
+                  <li class="submenu-item"><a href="{{ .Permalink }}" class=""><img src="/images/languagues/cz.ico" alt="img" style="max-width: 20px; max-height: 24px"></img> {{ .Language.LanguageName }}</a></li>
+                  {{ end }}		            
 		          {{ end }}
 	          {{ end }}
 	        {{ end }}

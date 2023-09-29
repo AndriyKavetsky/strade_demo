@@ -3,10 +3,9 @@ languageCode: 'en-us'
 title: 'STRaDe'
 theme: strade-theme # gohugo-theme-ananke # ga-hugo-theme # hugo-PaperMod # hugo-arogya-theme # 
 staticDir: 
+            - "static"
             - "data"
-            - "/images/album/"
-
-
+            - "static/images/areas_of_interest/"
 
 outputs:
   home:
